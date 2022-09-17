@@ -16,11 +16,11 @@ class App extends Component {
       },
       series: [
         {
-          name: "Mon",
+          name: "My Contribution",
           data: [30, 40, 6, 50, 49, 60, 70, 91, 22, 55, 2, 45],
         },
         {
-          name: "Tues",
+          name: "Highest Contributor",
           data: [3, 40, 95, 50, 49, 60, 7, 91, 11, 45, 91, 0],
         },
         // {
