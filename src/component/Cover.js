@@ -22,14 +22,13 @@ const Cover = () => {
           className={"loginbutton"}
           buttonText={"Login"}
           clientId={"6ff44d9eaede1e4fe33d"}
-          scope={'user repo_deployment'}
-          redirectUri={"http://localhost:3000/dashboard"}
+          scope={"user repo_deployment"}
+          redirectUri={"https://githubk123.herokuapp.com/dashboard"}
           onSuccess={(response) => {
-            API.auth(response.code).then(value=>{
+            API.auth(response.code).then((value) => {
               login(value.access_token);
             });
-            }
-            }
+          }}
           onFailure={(response) => console.log(response)}
         />
       </div>
