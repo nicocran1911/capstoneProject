@@ -1,5 +1,5 @@
  import dashicon from "../images/dashicon.png";
- import projecticon from "../images/projecticon.png";
+//  import projecticon from "../images/projecticon.png";
  import repositoryicon from "../images/repositoryicon.png";
  import { Link } from "react-router-dom";
  import {useState,useEffect} from 'react';
@@ -46,10 +46,10 @@ const cookies = new Cookies();
             Dashboard
           </Link>
         </h1>
-        <h1>
+        {/* <h1>
           {" "}
           <img src={projecticon} alt={projecticon} width={40} /> Projects
-        </h1>
+        </h1> */}
         <h1>
           {" "}
           <img src={repositoryicon} alt={repositoryicon} width={40} />
