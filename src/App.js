@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
 import Repositories from "./component/Repositories";
-import Repositories1 from "./component/Repositories1";
+// import Repositories1 from "./component/Repositories1";
 import Cover from "./component/Cover";
 import Dashboard from "./component/Dashboard";
 import {BrowserRouter as Router, Route, Routes, } from 'react-router-dom'
 import Branches from './component/Branches';
-import Dashboard1 from './component/Dashboard1';
+// import Dashboard1 from './component/Dashboard1';
 import Profile from './component/Profile';
 // import { useSession, signIn, signOut } from "next-auth/react";
 
