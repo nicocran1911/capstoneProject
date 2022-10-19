@@ -43,9 +43,11 @@ const Cover = () => {
         </h1>
         <p className="headp">Get Started.....</p>
         <button className={"loginbutton"}>
-        <a  href="https://github.com/login/oauth/authorize?client_id=6ff44d9eaede1e4fe33d&scope=user%20repo_deployment&allow_signup=false&redirect_uri=http://localhost:3000/login">login</a>
+          <a href="https://github.com/login/oauth/authorize?client_id=6ff44d9eaede1e4fe33d&scope=user%20repo_deployment&allow_signup=false&redirect_uri=https://githubk123.herokuapp.com/login">
+            login
+          </a>
         </button>
-           </div>
+      </div>
     </div>
   );
 }
