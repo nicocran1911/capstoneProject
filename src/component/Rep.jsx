@@ -1,4 +1,4 @@
-import { Link, useSearchParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {Badge, ListGroup,ProgressBar } from "react-bootstrap";
 import { useEffect, useState } from 'react';
 import API from '../api/github';

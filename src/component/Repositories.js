@@ -1,6 +1,5 @@
 
 import { Button, Badge, ListGroup } from "react-bootstrap";
-import { Link, useSearchParams } from 'react-router-dom';
 import Menu from './Menu';
 import { useEffect, useState } from "react";
 import Cookies from "universal-cookie";

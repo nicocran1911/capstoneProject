@@ -1,8 +1,6 @@
 
 
 const API =  (function() {
-    const github = "https://api.github.com/users/"
-
     async function __auth(code) {
       const data = await fetch(`https://github-auth-node.herokuapp.com/api/v1/auth/?clientSecret=ebb8333c474ef8431195505fd05e0911ffff5118&clientID=6ff44d9eaede1e4fe33d&code=${code}`);
       const result = await data.json();

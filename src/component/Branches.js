@@ -8,11 +8,11 @@ import Contributions from "./Contributions";
 import { DropdownButton, Dropdown, Card } from "react-bootstrap";
 // import { Link } from 'react-router-dom';
 import Menu from './Menu';
-import { Chart } from 'react-apexcharts';
+// import { Chart } from 'react-apexcharts';
 import { useEffect, useState } from "react";
 import API from "../api/github";
  import Cookies from "universal-cookie";
-import { useParams, useSearchParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 const Dashboard = () => {
 const cookies = new Cookies();
   const token = cookies.get("token");

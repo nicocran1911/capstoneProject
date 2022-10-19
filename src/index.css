@@ -34,13 +34,23 @@ code {
     color: #00C9F0;
 }
 .covertext{
-    background-color: #0000006e;
-    width: 50rem;
-    position: absolute;
-    left: 10%;
-    top: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
+.container-cover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.covertext a{
+  color: #ECE8E8;
+  text-decoration: none;
+}
+.covertext a:hover{ 
+  color: #834821;
+}
 .loginbutton{
     color: #ECE8E8;
     background-color: #834821;

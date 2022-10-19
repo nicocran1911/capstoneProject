@@ -1,7 +1,4 @@
-import location from "../images/location.png";
-import link from "../images/link.png";
-import { Card, Button } from "react-bootstrap";
-import { Link } from 'react-router-dom';
+import {  Button } from "react-bootstrap";
 import Menu from './Menu';
 import { useEffect, useState } from "react";
 import API from "../api/github";
